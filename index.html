@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>table & list & inline-block</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<table>
+			<caption>Table Practice</caption>
+			<tr>
+				<th colspan="8">Block-level element</th>
+			</tr>
+			<tr>
+				<td>address</td>
+				<td>article</td>
+				<td>aside</td>
+				<td>blockquote</td>
+				<td>canvas</td>
+				<td>dd</td>
+				<td>div</td>
+				<td>dl</td>
+			</tr>
+			<tr>
+				<td>dt</td>
+				<td>fieldset</td>
+				<td>figcaption</td>
+				<td>figure</td>
+				<td>footer</td>
+				<td>form</td>
+				<td>h1-h6</td>
+				<td>header</td>
+			</tr>
+			<tr>
+				<td>hr</td>
+				<td>li</td>
+				<td>main</td>
+				<td>nav</td>
+				<td>noscript</td>
+				<td>ol</td>
+				<td>p</td>
+				<td>pre</td>
+			</tr>
+			<tr>
+				<td>section</td>
+				<td>table</td>
+				<td>tfoot</td>
+				<td>ul</td>
+				<td>video</td>
+			</tr>
+		</table>
+
+		<table id=tab1>
+			<tr>
+				<th colspan="8">Inline-level element</th>
+			</tr>
+			<tr>
+				<td>a</td>
+				<td>abbr</td>
+				<td>acronym</td>
+				<td>b</td>
+				<td>bdo</td>
+				<td>big</td>
+				<td>br</td>
+				<td>button</td>
+			</tr>
+			<tr>
+				<td>cite</td>
+				<td>code</td>
+				<td>dfn</td>
+				<td>em</td>
+				<td>i</td>
+				<td>image</td>
+				<td>input</td>
+				<td>kbd</td>
+			</tr>
+			<tr>
+				<td>label</td>
+				<td>map</td>
+				<td>object</td>
+				<td>output</td>
+				<td>q</td>
+				<td>samp</td>
+				<td>script</td>
+				<td>select</td>
+			</tr>
+			<tr>
+				<td>small</td>
+				<td>span</td>
+				<td>strong</td>
+				<td>sub</td>
+				<td>sup</td>
+				<td>textarea</td>
+				<td>time</td>
+				<td>tt</td>
+			</tr>
+			<tr>
+				<td>var</td>
+			</tr>
+		</table>
+
+
+		<p class="title">unordered list</p>
+
+		<ul>
+			<li>Hi boss</li>
+			<li>Hi boss</li>
+			<li>Hi boss</li>
+		</ul>
+
+		<p class="title">ordered list</p>
+
+		<ol>
+			<li>Hi boss</li>
+			<li>Hi boss</li>
+			<li>Hi boss</li>
+		</ol>
+
+		<p class="title">other list</p>
+
+		<dl>
+			<dt>milk-</dt>
+			<dd>hot milk</dd>
+			<dt>coffee-</dt>
+			<dd>hot coffee</dd>
+			<dd>cool coffee</dd>
+		</dl>
+
+		<p class="title">block element list</p>
+		<address>
+			Address:<br>
+			written by Kamrul hasan<br>
+			<a href="mdkamrulhasan.du@gmail.com">mdkamrulhasan.du@gmail.com</a><br>
+			comilla<br>
+			Bangladesh
+		</address>
+
+		<article>
+			<h4>article</h4>
+			Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!
+		</article>
+
+		<aside>
+			<h4>aside</h4>
+			<p>	Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!
+			</p>
+
+		</aside>
+		<blockquote cite="www.ajaira.com">
+			<span>Blockquote</span><br>
+			For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+		</blockquote>
+
+		<canvas>
+			<h4>canvas</h4>
+			<p>it does not support</p>
+		</canvas>
+		<form action="/action.php">
+			<fieldset>
+				<legend>Fieldset</legend>
+				<lebel for="fname">First Name:</lebel>
+				<input type="text" id="fname" name="fname" placeholder="e.g Kamrul"><br><br>
+				<lebel for="fname">Last Name:</lebel>
+				<input type="text" id="fname" name="fname" placeholder="e.g hasan"><br><br>
+				<lebel for="bday"> Birthday:</lebel>
+				<input type="date" id="bday" name="bday"><br><br>
+				<input type="submit" id= "submit" value="submit">
+			</fieldset>
+		</form>
+
+		<figure>
+			<img class="img" src="image/sea.jpg" alt="sea">
+			<figcaption>It's a picture of sea</figcaption>
+		</figure>
+
+
+		<footer>
+			<h5>Footer</h5>
+			<a href="mdkamrulhasan.du@gmail.com">Contact</a>
+		</footer>
+
+		<form>
+			it's a form. <br>
+			<lebel for="fname"> First name</lebel>
+			<input type="text" id="fname" name="fname"><br>
+			<lebel for="fname"> First name</lebel>
+			<input type="text" id="fname" name="fname"><br>
+			<input type="submit" value="submit">
+		</form>
+
+		<header>
+			<h1>header </h1>
+			<p>
+				lorem ipsum amutsum....
+			</p>
+		</header>
+		<main>
+			<article class="main">
+				<h3>main semantic</h3>
+				<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!
+				</p>
+			</article>
+			<article class="main">
+				<h3>main semantic</h3>
+				<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!
+				</p>
+			</article>
+			<article class="main">
+				<h3>main semantic</h3>
+				<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!
+				</p>
+			</article>
+		</main>
+
+		<nav>
+			<a href="#">facebook</a>
+			<a href="#">twitter</a>
+			<a href="#">instagram</a>
+			<a href="#">linkedin</a>
+		</nav>
+
+		<section>
+			<h5> section tag</h5>
+			<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!
+			</p>
+		</section>
+
+		<table class=" new">
+			<thead>
+				<tr>
+					<th>month</th>
+					<th>savings</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>january</td>
+					<td>1000tk</td>
+				</tr>
+				<tr>
+					<td>january</td>
+					<td>1000tk</td>
+				</tr>
+				<tr>
+					<td>january</td>
+					<td>1000tk</td>
+				</tr>
+				<tr>
+					<td>january</td>
+					<td>1000tk</td>
+				</tr>
+				<tr>
+					<td>january</td>
+					<td>1000tk</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td>sum</td>
+					<td>1000tk</td>
+				</tr>
+			</tfoot>
+		</table>
+
+<p class="title">inline elements list</p>
+
+
+		<a href="facebook.com">anchor tag </a><br>
+
+		<abbr title="world health organization">
+			WHO
+		</abbr><br>
+		<b>I love you</b><br>
+		<bdo dir="rtl"> I love you</bdo><br>
+		<button> submit </button><br>
+		<cite> Love </cite> is pain.<br>
+		<code>love </code> is pain.<br>
+		<dfn>love</dfn> is pain.<br>
+		<p>Google Chrome is a <em>web browser</em> developed by Google, released in <i>2008.</i> Chrome is the world's most popular web browser today!
+		</p>
+		<img src="image/sea.jpg" alt="sea"><br>
+		<lebel for="input">box</lebel>
+		<input type="text" id="input" name="input" placeholder="Input"><br>
+		<p><kbd>ctrl</kbd>+ <kbd>c</kbd> for text copy.
+
+
+
+		<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+		<input type="range" id="a" value="50">
+		+<input type="number" id="b" value="25">
+		=<output name="x" for="a b"></output>
+		</form><br>
+		<form oninput="x.value= parseInt(a.value)+parseInt(b.value)">
+		<input type="number" id="a" name="a" value="50">
+		+<input type="number" id="b" name="b" value="40">
+		=<output name="x" for="a b"></output> 
+
+
+
+
+
+
+
+	</body>
+</html>
